@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: black; 
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list a{
+	color: black;
+	font-weight: bold;
+}
+
+#nav-list a:hover {
+  color: white;
+  background: black;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  background-color: black;
+}
+
+.navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+hr {
+	border-color: black;
+}
+
+.menu-description {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.menu-description > p {
+	padding:20px;
+}
